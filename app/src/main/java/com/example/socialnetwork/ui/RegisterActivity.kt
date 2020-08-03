@@ -1,10 +1,12 @@
-package com.example.socialnetwork
+package com.example.socialnetwork.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.socialnetwork.MainActivity
+import com.example.socialnetwork.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_register.*
@@ -37,7 +39,7 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun updateUI(user:FirebaseUser?){
         if(user!=null){
-            val intent=Intent(this,MainActivity::class.java)
+            val intent=Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
     }

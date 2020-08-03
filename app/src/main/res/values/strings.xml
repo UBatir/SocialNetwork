@@ -11,4 +11,12 @@
     <string name="login_failed">"Login failed"</string>
     <string name="register">Registration</string>
     <string name="sign_in">Sign In</string>
+    <string name="profile">Profile</string>
+    <string name="add_post">Add Post</string>
+    <string name="home">Home</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email Address</string>
+    <string name="info">Information</string>
+    <string name="save">save</string>
 </resources>
